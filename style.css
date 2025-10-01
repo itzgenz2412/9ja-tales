@@ -1,0 +1,21 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0; padding: 0;
+  background: #f8f9fa; color: #222;
+  line-height: 1.6;
+}
+header {
+  background: #0b84ff; color: white;
+  padding: 12px; text-align: center;
+  font-size: 1.1em; font-weight: bold;
+}
+main {
+  max-width: 700px; margin: 20px auto;
+  background: white; padding: 16px;
+  border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h1 { color: #0b84ff; }
+ul { list-style: none; padding: 0; }
+li { margin: 10px 0; }
+a { text-decoration: none; color: #0b84ff; font-weight: 600; }
+.author { font-size: 0.9em; color: #777; margin-bottom: 10px; }
