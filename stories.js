@@ -2,11 +2,11 @@ const stories = [
   {
     id: 1,
     title: "The Tortoise and the Hot Porridge",
-    author: "Itz Gen Z",
+    author: "Deris",
     image: "images/tortoise-porridge.jpg",
     content: `
 <p>Dont forget to like and Follow</p><br>
-<footer>&copy; By Itz Gen Z</footer>
+<footer>&copy; By Deris</footer>
 
 <p>
 Once upon a time, in a village surrounded by rivers and hills, there lived a tortoise named Akpan. Akpan was known across the land as clever, but he had a weakness: an endless love for porridge. One bright morning, the village decided to prepare a huge pot of hot porridge for the elders to celebrate the harvest season. The aroma spread far and wide, even reaching Akpan’s sharp nose while he rested under a palm tree.
@@ -50,11 +50,11 @@ From that day on, Akpan became known not only for his cleverness but for his wil
   {
     id: 2,
     title: "The Tortoise and the Hare",
-    author: "Itz Gen Z",
+    author: "Deris",
     image: "images/tortoise-hare.jpg",
     content: `
 <p>Dont forget to like and Follow</p><br>
-<footer>&copy; By Itz Gen Z</footer>
+<footer>&copy; By Deris</footer>
 
 <p>
 Once upon a time, in a lively forest where animals talked and laughed together, there lived Tortoise and Hare. Hare was swift and boastful, always teasing others about his speed. "I am the fastest in the world," he would say with pride, "and no one can ever beat me." Tortoise, slow but wise, listened quietly, never joining the arguments, until one sunny morning when Hare mocked him yet again.
@@ -94,11 +94,11 @@ From that day, Hare never mocked Tortoise again. He learned that speed alone is 
   {
     id: 3,
     title: "The Tortoise and the Talking Skull",
-    author: "Itz Gen Z",
+    author: "Deris",
     image: "images/tortoise-skull.jpg",
     content: `
 <p>Dont forget to like and Follow</p><br>
-<footer>&copy; By Itz Gen Z</footer>
+<footer>&copy; By Deris</footer>
 
 <p>
 In a dense forest far away, there lived a tortoise named Ekwu. Ekwu was known for his curiosity. One day, while walking through a deep part of the forest he had never visited before, he stumbled upon a peculiar sight — a skull resting under a baobab tree. But this was no ordinary skull; it glowed faintly and seemed to hum softly. Ekwu stepped closer and was startled when the skull spoke, “Tortoise, seeker of wisdom, come closer. I have a challenge for you.”
@@ -134,11 +134,11 @@ One day, a young tortoise approached him and said, “Ekwu, how did you learn su
   {
     id: 4,
     title: "The Tortoise and the Magic Drum",
-    author: "Itz Gen Z",
+    author: "Deris",
     image: "images/tortoise-drum.jpg",
     content: `
 <p>Dont forget to like and Follow</p><br>
-<footer>&copy; By Itz Gen Z</footer>
+<footer>&copy; By Deris</footer>
 
 <p>
 Long ago, in a village surrounded by rolling hills, there lived a tortoise named Obi. Obi was clever and loved music. One day, while exploring the riverbank, he discovered a strange drum hidden beneath the roots of an ancient tree. The drum was carved with intricate patterns of animals, and it glowed softly in the sunlight. Obi touched it, and the drum spoke: “I am the Magic Drum. Play me, and you will have the power to bring joy or trouble.” Obi chuckled — what a drum with manners! — and decided to take it home.
@@ -174,11 +174,11 @@ The drum still rests in the village square, guarded by the tortoise’s descenda
   {
     id: 5,
     title: "How Tortoise Dealt With Monkey",
-    author: "Itz Gen Z",
+    author: "Deris",
     image: "images/tortoise-monkey.jpg",
     content: `
 <p>Dont forget to like and Follow</p><br>
-<footer>&copy; By Itz Gen Z</footer>
+<footer>&copy; By Deris</footer>
 
 <p>
 In a dense jungle where vines twisted and the air smelled of ripe fruit, lived Tortoise and Monkey. Monkey was playful but mischievous, always playing tricks on others. One sunny morning, Monkey stole fruits from the village storehouse and hid them high in the trees. The villagers were upset, and the elders called a meeting. Tortoise, knowing Monkey’s ways, stepped forward and said, “Let me speak to him.”
