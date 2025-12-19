@@ -1,90 +1,79 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Folktale Stories</title>
-  <script async src="https:                                                                                                                          
-  <style>
-                                   
-    .hero {
-      background: linear-gradient(135deg,                   
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-      border-radius: 0 0 20px 20px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    }
-    .hero h1 {
-      margin: 0;
-      font-size: 1.8em;
-    }
-    .hero p {
-      font-size: 1em;
-      opacity: 0.9;
-      margin-top: 8px;
-    }
-    .story-grid {
-      display: grid;
-      gap: 16px;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      margin-top: 20px;
-    }
-    .story-card {
-      background: white;
-      border-radius: 12px;
-      padding: 16px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      transition: transform 0.2s, box-shadow 0.2s;
-      text-decoration: none;
-      color: inherit;
-      display: block;
-    }
-    .story-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    }
-    .story-card h2 {
-      margin: 0;
-      font-size: 1.2em;
-      color:         
-    }
-    .story-card p {
-      margin: 8px 0 0;
-      font-size: 0.95em;
-      color:      
-    }
-    footer {
-      margin-top: 40px;
-      text-align: center;
-      font-size: 0.9em;
-      color:      
-      padding: 10px;
-    }
-  </style>
-</head>
-<body>
-  <header class="hero">
-    <h1>Deris 🐢🐯🐱African Folktales🐍🦜🦚</h1>
-    <p>Timeless stories of wisdom, patience, and lessons for life.</p>
-  </header>
-  <main>
-    <div id="story-list" class="story-grid"></div>
-  </main>
-  <footer>
-    © 2025 Folktale Collection | Built with ❤ in Termux system by Deris
-  </footer>
-  <script src="stories.js"></script>
-  <script>
-    const list = document.getElementById('story-list');
-    stories.forEach(s => {
-      const card = document.createElement('a');
-      card.className = "story-card";
-      card.href = "story.html?id=" + s.id;
-      card.innerHTML = `<h2>${s.title}</h2><p>${s.author}</p>`;
-      list.appendChild(card);
-    });
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Folktale Stories</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5018473141244488"
+     crossorigin="anonymous">
+     </script>
+    <style>
+      /* Extra styles for homepage */
+      .hero {
+        background: linear-gradient(135deg, #0b84ff, #5ec2f3);
+        color: white; padding: 40px 20px; text-align: center;
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      }
+      .hero h1 {
+        margin: 0; font-size: 1.8em;
+      }
+      .hero p {
+        font-size: 1em; opacity: 0.9; margin-top: 8px;
+      }
+      .story-grid {
+        display: grid; gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        margin-top: 20px;
+      }
+      .story-card {
+        background: white; border-radius: 12px;
+        padding: 16px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+        text-decoration: none; color: inherit;
+        display: block;
+      }
+      .story-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      }
+      .story-card h2 {
+        margin: 0; font-size: 1.2em; color: #0b84ff;
+      }
+      .story-card p {
+        margin: 8px 0 0; font-size: 0.95em; color: #555;
+      }
+      footer {
+        margin-top: 40px; text-align: center; font-size: 0.9em;
+        color: #777; padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Deris 🐢🐯🐱African Folktales🐍🦜🦚</h1>
+      <p>Timeless stories of wisdom, patience, and lessons for life.</p>
+    </header>
+
+    <main>
+ <div id="story-list" class="story-grid"></div>
+    </main>
+
+    <footer>
+      © 2025 Folktale Collection | Built with ❤ in Termux system by Deris 
+    </footer>
+
+    <script src="stories.js"></script>
+    <script>
+      const list = document.getElementById('story-list');
+      stories.forEach(s => {
+        const card = document.createElement('a');
+        card.className = "story-card";
+        card.href = "story.html?id=" + s.id;
+        card.innerHTML = `<h2>${s.title}</h2><p>${s.author}</p>`;
+        list.appendChild(card);
+      });
+    </script>
+  </body>
 </html>
